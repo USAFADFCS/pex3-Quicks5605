@@ -62,3 +62,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# eon_file
+eon_rush_0.tr

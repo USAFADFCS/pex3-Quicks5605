@@ -1,7 +1,7 @@
 /** pagequeue.c
  * ===========================================================
- * Name: _______________________, __ ___ 2026
- * Section: CS483 / ____
+ * Name: Samuel Quick, 21 Apr 2026
+ * Section: CS483 / M4
  * Project: PEX3 - Page Replacement Simulator
  * Purpose: Implementation of the PageQueue ADT — a doubly-linked
  *          list for LRU page replacement.
@@ -86,7 +86,7 @@ long pqAccess(PageQueue *pq, unsigned long pageNum) {
     pq->tail = newNode;
     pq->size++;
 
-    // Decapitations haha
+    // Decapitations (haha)
     if (pq->size > pq->maxSize) { // size greater than max
         PqNode *leaving = pq->head;
         pq->head = leaving->next;

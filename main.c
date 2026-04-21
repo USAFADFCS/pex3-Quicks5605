@@ -121,7 +121,7 @@ int main(int argc, char **argv) {
     //       printf("%d,%lu,%f\n", frameCount, faults[frameCount],
     //              (double)faults[frameCount] / (double)numAccesses);
     for (int frameCount = 0; frameCount < maxFrames; frameCount++){
-            printf("%d,%lu,%f\n", frameCount + 1, faults[frameCount],
+            printf("%d,%lu,%f\n", frameCount + 1, faults[frameCount], //add one for proper output indexing
                 (double)faults[frameCount] / (double)numAccesses);
     }
 
